@@ -1,0 +1,458 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: none;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+/*html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}*/
+
+section{
+    padding:2rem 7%;
+}
+
+.header{
+    font-size: 4rem;
+    color: #fff;
+}
+
+/* .header .heading{
+    color: #35444D;
+} */
+
+.heading{
+    text-align: center;
+    color:#fff;
+    text-transform: none;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+span{
+    color: #FFDF22;
+    text-transform: none;
+}
+
+.header{
+    /* background:#000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.5rem 7%;
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+
+    background-image: url('landscape.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header .navbar a{
+    margin:0 1rem;
+    font-size: 1.6rem;
+    color:#22311d;
+}
+
+.header .navbar a:hover{
+    color:#FFDF22;
+    border-bottom: .1rem #FFDF22;
+    padding-bottom: .5rem;
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.home .content{
+    max-width: 60rem;
+    border: 2px solid transparent;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    text-transform: unset;
+    color:#fff;
+    padding: 10px;
+    background-clip: padding-box;
+    backdrop-filter: blur(10px);
+}
+
+.home .content p{
+    font-size: 2.005rem;
+    font-weight: lighter;
+    line-height: 2.1;
+    padding:1rem 0;
+    color:#fff;
+    padding: 17px;
+    background-clip: padding-box;
+    backdrop-filter: blur(17px);
+}
+
+.explore .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    background-clip: padding-box;
+    backdrop-filter: blur(10px);
+}
+
+.explore .row .image{
+    flex:1 1 45rem;
+}
+
+.explore .row .image img{
+    width: 100%;
+}
+.explore .row .content{
+    flex:1 1 45rem;
+    padding:2rem;
+}
+
+.explore .row .content h3{
+    font-size: 3rem;
+    color:#FFDF22;
+}
+
+.explore .row .content p{
+    font-size: 1.6rem;
+    color:#fff;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+
+.temple_pagodas {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.temple_pagodas .heading .pagoda{
+  color:#FFDF22;
+}
+
+.row4 {
+  margin: 8px -16px;
+}
+
+.row4,
+.row4  .column4 {
+  padding: 8px;
+}
+
+.column4 {
+  float: left;
+  width: 50%;
+}
+
+.row4:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content4 {
+  border: 2px solid white;
+  padding: 10px;
+  
+  background-clip: padding-box;
+  backdrop-filter: blur(10px);
+}
+
+.content4 h3,
+.content4 p{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.row5 {
+  margin: 8px -16px;
+}
+
+.row5,
+.row5  .column5 {
+  padding: 8px;
+}
+
+.column5 {
+  float: left;
+  width: 50%;
+}
+
+.row5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row3 {
+  margin: 8px -16px;
+}
+
+.row3,
+.row3  .column3 {
+  padding: 8px;
+}
+
+.column3 {
+  float: left;
+  width: 50%;
+}
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content3 {
+  border: 2px solid white;
+  padding: 10px;
+  background-clip: padding-box;
+  backdrop-filter: blur(10px);
+}
+
+.content3 h3,
+.content3 p{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.content5{
+  
+  border: 2px solid white;
+  padding: 10px;
+  background-clip: padding-box;
+  backdrop-filter: blur(10px);
+}
+
+.explore .content5 h3,
+.content5 p{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.gallery .row1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    padding: 10px;
+    background-clip: padding-box;
+    backdrop-filter: blur(10px);
+}
+
+.gallery .row1 .content1{
+    flex:1 1 45rem;
+    padding:2rem;
+}
+
+.gallery .row1 .content1 h3{
+    font-size: 3rem;
+    color:#FFDF22;
+}
+
+.gallery .row1 .content1 p{
+    font-size: 1.6rem;
+    color:#fff;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+
+.row2 {
+  margin: 8px -16px;
+}
+
+.row2,
+.row2  .column2 {
+  padding: 8px;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row6 {
+  margin: 8px -16px;
+}
+
+.row6,
+.row6  .column6 {
+  padding: 8px;
+}
+
+.column6 {
+  float: left;
+  width: 50%;
+}
+
+.row6:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row7 {
+  margin: 8px -16px;
+}
+
+.row7,
+.row7  .column7 {
+  padding: 8px;
+}
+
+.column7 {
+  float: left;
+  width: 50%;
+}
+
+.row7:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.events .row8{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid white;
+  padding: 10px;
+  background-clip: padding-box;
+  backdrop-filter: blur(10px);
+}
+
+.events .row8 .content8{
+  flex:1 1 45rem;
+  padding:2rem;
+}
+
+.events .row8 .content8 h3{
+  font-size: 3rem;
+  color:#FFDF22;
+}
+
+.events .row8 .content8 p{
+  font-size: 1.6rem;
+  color:#fff;
+  padding:1rem 0;
+  line-height: 1.8;
+}
+.row9 {
+  margin: 8px -16px;
+}
+
+.row9,
+.row9  .column9 {
+  padding: 8px;
+}
+
+.column9 {
+  float: left;
+  width: 50%;
+}
+
+.row9:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row10 {
+  margin: 8px -16px;
+}
+
+.row10,
+.row10  .column10 {
+  padding: 8px;
+}
+
+.column10 {
+  float: left;
+  width: 50%;
+}
+
+.row10:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row11 {
+  margin: 8px -16px;
+}
+
+.row11,
+.row11  .column11 {
+  padding: 8px;
+}
+
+.column11 {
+  float: left;
+  width: 50%;
+}
+
+.row11:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact pre{
+    font-size: 2rem;
+    color:#fff;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+
+.contact address{
+    font-size: 2rem;
+    color:#fff;
+}
+
+.contact .ending{
+  border: 2px solid white;
+  padding: 10px;
+  background-clip: padding-box;
+  backdrop-filter: blur(10px);
+}
+
+.contact address span{
+    color: #FFDF22;
+    text-transform: none;
+}
+
+.admiredperson h3{
+    font-size: 2rem ;
+}
